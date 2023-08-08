@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    align-items: center;
+    background-image: url(pexels-pixabay-76969.jpg);
+    background-size: cover;
+}
+
+.app-title {
+    padding-right: 420px;
+    font-size: 48px;
+    font-weight: bold;
+    color: lightblue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding-top: 10%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-left: 38%;
+}
+
+.weather {
+    padding-top: 200px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+input, button {
+    margin-bottom: 10px;
+}
+
+button:hover{
+    background: lightblue;
+}
